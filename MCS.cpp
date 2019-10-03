@@ -122,7 +122,7 @@ int main()
 		hun[i] = getRandData(-100,100);
 	for(int i = 0; i < 1000; ++i)
 		thou[i] = getRandData(-100,100);
-	for(int i = 0; i < 100; ++i)
+	for(int i = 0; i < 10000; ++i)
 		tenthou[i] = getRandData(-100,100);
 	
 	chrono::duration<double, milli> eps;	
